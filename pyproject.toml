@@ -2,8 +2,8 @@
 name = "sanic-to-json"
 version = "0.1.8"
 description = "Create Postman JSON API documentation files from Sanic."
-homepage = "https://github.com/kountable/sanic-to-json"
-repository = "https://github.com/kountable/sanic-to-json"
+homepage = "https://github.com/caheredia/sanic-to-json"
+repository = "https://github.com/caheredia/sanic-to-json"
 authors = ["Cristian Heredia <cheredia@kountable.com>"]
 license = "MIT"
 readme = "README.md"
