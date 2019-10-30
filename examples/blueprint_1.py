@@ -50,7 +50,7 @@ async def post(request, resource, subresource):
     
     INI
     [request]
-    headers = {"Content-Type": "application/json"}
+    headers = {"Content-Type": "application/json", "api-key": "password123"}
     body ={"token": "POST token"}
 
     """
