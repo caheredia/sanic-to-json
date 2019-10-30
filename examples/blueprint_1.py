@@ -38,7 +38,7 @@ async def post(request, resource):
     
     INI
     [request]
-    header = {"Content-Type": "application/json"}
+    headers = {"Content-Type": "application/json"}
     body ={"token": "POST token"}
     """
     return json({resource})
@@ -50,7 +50,7 @@ async def post(request, resource, subresource):
     
     INI
     [request]
-    header = {"Content-Type": "application/json"}
+    headers = {"Content-Type": "application/json"}
     body ={"token": "POST token"}
 
     """
