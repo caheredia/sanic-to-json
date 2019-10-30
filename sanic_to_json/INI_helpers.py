@@ -20,7 +20,7 @@ def format_headers(config):
     """Returns a list of formatted header dictionaries."""
     request_header = []
     try:
-        header_items = eval(config["header"])
+        header_items = eval(config["headers"])
         for key in header_items:
             header = {
                 "key": key,
