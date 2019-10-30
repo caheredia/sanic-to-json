@@ -11,7 +11,7 @@ async def post(request):
        
     INI
     [request]
-    header = {"Content-Type": "application/json","x-amz-sns-message-type": "Notification"}
+    headers = {"Content-Type": "application/json","x-amz-sns-message-type": "Notification"}
     query = ?day=1&temp=F
     """
     data = request.text
@@ -38,7 +38,7 @@ async def post(request, resource):
     
     INI
     [request]
-    header = {"Content-Type": "application/json"}
+    headers = {"Content-Type": "application/json"}
     body ={"token": "POST token"}
     """
     return json({resource})
@@ -50,7 +50,7 @@ async def post(request, resource, subresource):
     
     INI
     [request]
-    header = {"Content-Type": "application/json"}
+    headers = {"Content-Type": "application/json", "api-key": "password123"}
     body ={"token": "POST token"}
 
     """

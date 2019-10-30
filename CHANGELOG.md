@@ -1,3 +1,9 @@
+# Version 0.1.9
+
+## Features
+- Look for headers instead of header in request: `headers` used in REST, header used in Postman JSON
+
+
 # Version 0.1.8
 
 ## Features

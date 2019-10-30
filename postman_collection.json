@@ -33,7 +33,7 @@
                                 "{{base_Url}}/v1/a-prefix/endpoint-one?day=1&temp=F"
                             ]
                         },
-                        "description": "Return text from request.\n       \n    INI\n    [request]\n    header = {\"Content-Type\": \"application/json\",\"x-amz-sns-message-type\": \"Notification\"}\n    query = ?day=1&temp=F\n    ",
+                        "description": "Return text from request.\n       \n    INI\n    [request]\n    headers = {\"Content-Type\": \"application/json\",\"x-amz-sns-message-type\": \"Notification\"}\n    query = ?day=1&temp=F\n    ",
                         "body": {
                             "mode": "raw",
                             "raw": {}
@@ -92,7 +92,7 @@
                                 "{{base_Url}}/v1/a-prefix/endpoint-three/<resource>"
                             ]
                         },
-                        "description": "resource endpoint with subresource.\n    \n    INI\n    [request]\n    header = {\"Content-Type\": \"application/json\"}\n    body ={\"token\": \"POST token\"}\n    ",
+                        "description": "resource endpoint with subresource.\n    \n    INI\n    [request]\n    headers = {\"Content-Type\": \"application/json\"}\n    body ={\"token\": \"POST token\"}\n    ",
                         "body": {
                             "mode": "raw",
                             "raw": "{\"token\": \"POST token\"}"
@@ -113,6 +113,12 @@
                                 "name": "Content-Type",
                                 "value": "application/json",
                                 "type": "text"
+                            },
+                            {
+                                "key": "api-key",
+                                "name": "api-key",
+                                "value": "password123",
+                                "type": "text"
                             }
                         ],
                         "url": {
@@ -121,7 +127,7 @@
                                 "{{base_Url}}/v1/a-prefix/endpoint-three/<resource>/<subresource>"
                             ]
                         },
-                        "description": "resource endpoint with subresource.\n    \n    INI\n    [request]\n    header = {\"Content-Type\": \"application/json\"}\n    body ={\"token\": \"POST token\"}\n\n    ",
+                        "description": "resource endpoint with subresource.\n    \n    INI\n    [request]\n    headers = {\"Content-Type\": \"application/json\", \"api-key\": \"password123\"}\n    body ={\"token\": \"POST token\"}\n\n    ",
                         "body": {
                             "mode": "raw",
                             "raw": "{\"token\": \"POST token\"}"
