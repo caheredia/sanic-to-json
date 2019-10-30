@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "0c86c8b2-cfaf-4bf8-ad53-305c4d743333",
+		"name": "SIC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "basic search",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "apikey",
+						"value": "coverage_API_key",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api-demo.single-invoice.co/transactors?version=2&countrycode=US&name=kountable&city=san%20francisco",
+					"protocol": "https",
+					"host": [
+						"api-demo",
+						"single-invoice",
+						"co"
+					],
+					"path": [
+						"transactors"
+					],
+					"query": [
+						{
+							"key": "version",
+							"value": "2"
+						},
+						{
+							"key": "countrycode",
+							"value": "US"
+						},
+						{
+							"key": "name",
+							"value": "kountable"
+						},
+						{
+							"key": "city",
+							"value": "san%20francisco"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "second request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "?api_key=coverage_API_key&Authorization=passowrord1234",
+					"query": [
+						{
+							"key": "api_key",
+							"value": "coverage_API_key"
+						},
+						{
+							"key": "Authorization",
+							"value": "passowrord1234"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

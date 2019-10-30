@@ -58,6 +58,7 @@ For example, as found in [endpoint-one](https://github.com/kountable/sanic-to-js
 
 ## Todo
 - change header to headers
+    - Note Postman uses `header` in its JSON dictionary and the REST protocol uses `headers`
 
 ## Contributors
 See the [GitHub contributor page](https://github.com/kountable/sanic-to-json/graphs/contributors)
