@@ -56,6 +56,9 @@ For example, as found in [endpoint-one](https://github.com/kountable/sanic-to-js
 ## How to install 
 `pip install sanic-to-json`
 
+## Todo
+- change header to headers
+
 ## Contributors
 See the [GitHub contributor page](https://github.com/kountable/sanic-to-json/graphs/contributors)
 
