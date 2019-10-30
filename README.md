@@ -28,7 +28,7 @@ For example, as found in [endpoint-three](https://github.com/kountable/sanic-to-
 ```
     INI
     [request]
-    header = {"Content-Type": "application/json"}
+    headers = {"Content-Type": "application/json"}
     body = {"username": "{{username}}", "password": "{{password}}"}
 ```
 
@@ -40,7 +40,7 @@ For example, as found in [endpoint-one](https://github.com/kountable/sanic-to-js
        
     INI
     [request]
-    header = {"Content-Type": "application/json","x-amz-sns-message-type": "Notification"}
+    headers = {"Content-Type": "application/json","x-amz-sns-message-type": "Notification"}
     query = ?day=1&temp=F
     """
 ```
@@ -56,9 +56,6 @@ For example, as found in [endpoint-one](https://github.com/kountable/sanic-to-js
 ## How to install 
 `pip install sanic-to-json`
 
-## Todo
-- change header to headers
-    - Note Postman uses `header` in its JSON dictionary and the REST protocol uses `headers`
 
 ## Contributors
 See the [GitHub contributor page](https://github.com/kountable/sanic-to-json/graphs/contributors)
