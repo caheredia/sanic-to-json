@@ -17,7 +17,7 @@ and
 - Travis will upload the new version automatically to PyPI.
 
 
-## References
+## References 
 [poetry build](https://wrongsideofmemphis.com/2018/10/28/package-and-deploy-a-python-module-in-pypi-with-poetry-tox-and-travis/)
 
 [git tags](https://git-scm.com/book/en/v2/Git-Basics-Tagging) 

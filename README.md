@@ -24,7 +24,7 @@ The above code formats the Postman collection with 'Test API' and doc strings fr
 ### To add `body` and `header` elements to Postman JSON 
 Placing `INI` in doc string will cause the text below to be loaded into a python config object, which then get converted to the appropiate headers and JSON body in Posttman. 
 
-For example, as found in [endpoint-three](https://github.com/kountable/sanic-to-json/blob/master/examples/blueprint_1.py)
+For example, as found in [endpoint-three](https://github.com/caheredia/sanic-to-json/blob/master/examples/blueprint_1.py)
 ```
     INI
     [request]
@@ -34,7 +34,7 @@ For example, as found in [endpoint-three](https://github.com/kountable/sanic-to-
 
 ### To add query parameters
 Similar to above placing sections under INI that are prefixed will start a example request. 
-For example, as found in [endpoint-one](https://github.com/kountable/sanic-to-json/blob/master/examples/blueprint_1.py)
+For example, as found in [endpoint-one](https://github.com/caheredia/sanic-to-json/blob/master/examples/blueprint_1.py)
 ```
     """Return text from request.
        
@@ -62,7 +62,7 @@ See the [GitHub contributor page](https://github.com/kountable/sanic-to-json/gra
 
 
 ## License
-sanic-to-json is open source software [licensed as MIT](https://github.com/kountable/sanic-to-json/blob/master/LICENSE).
+sanic-to-json is open source software [licensed as MIT](https://github.com/caheredia/sanic-to-json/blob/master/LICENSE).
 
 
 
